@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Diff2A {
+
+	public static void main(String[] args) {
+		Scanner c = new Scanner(System.in);
+		
+		System.out.println("실수를 입력하세요");
+		int a = c.nextInt();
+		int b = c.nextInt();
+		double d = a-b;
+		double e = b-a;
+		
+		if(a>b) {
+			System.out.println(a+ "와" + b + "의 차이는" + d + "입니다.");
+		}
+		else {
+			System.out.println(b+ "와" + a + "의 차이는" + e + "입니다.");
+		}
+	}
+
+}

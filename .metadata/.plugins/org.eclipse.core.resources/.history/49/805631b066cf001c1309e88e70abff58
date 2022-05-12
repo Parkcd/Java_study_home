@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Absolute1 {
+
+	public static void main(String[] args) {
+		Scanner a = new Scanner(System.in);
+		int b = a.nextInt();
+		
+		if(b>=0) {
+			System.out.println("절대값은" + b + "입니다.");
+		}
+		else {
+            System.out.println("절대값은" + -b + "입니다.");
+		}
+
+	}
+
+}

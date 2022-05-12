@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class Nagative {
+
+	public static void main(String[] args) {
+		Scanner a = new Scanner(System.in);
+		
+		if(a>0) {
+			System.out.println("양수 입니다.");
+		}
+		else {
+			System.out.println("이 값은 음의 값입니다.");
+		}
+		
+
+	}
+
+}

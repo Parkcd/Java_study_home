@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="chap04.SwitchExample"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+    <fullyQualifiedTypeName name="p244.Singleton"/>
+    <fullyQualifiedTypeName name="sec.exam03_import.hankook.Tire"/>
+    <fullyQualifiedTypeName name="sec.exam03_import.hankook.SnowTire"/>
+    <fullyQualifiedTypeName name="sec12.exam03_import.hankook.Tire"/>
+</qualifiedTypeNameHistroy>

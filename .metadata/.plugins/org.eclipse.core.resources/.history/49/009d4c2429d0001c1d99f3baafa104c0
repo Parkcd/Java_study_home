@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class MinMaxEq {
+
+	public static void main(String[] args) {
+		Scanner c = new Scanner(System.in);
+		System.out.println("정수 2가지를 입력하세요");
+		
+		int a = c.nextInt();
+		int b = c.nextInt();
+
+		if(a>b) {
+			System.out.println(a+ "가" + b + "보다 큽니다.");
+		}
+		else if(b>a) {
+			System.out.println(b + "가" + a + "보다 큽니다");
+		}
+		else {
+			System.out.println("두 값이 같습니다.");
+		}
+	}
+
+}
