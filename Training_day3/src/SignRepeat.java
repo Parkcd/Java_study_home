@@ -4,7 +4,8 @@ public class SignRepeat {
 
 	public static void main(String[] args) {
 		Scanner c = new Scanner(System.in);
-		int retry;
+		System.out.println("수를 하나 입력하세요");
+		int retry = 1;
 		
 		do {
 			int a = c.nextInt();
@@ -17,7 +18,7 @@ public class SignRepeat {
 			else {
 				System.out.println("이 값은 0 입니다.");
 			}
-				System.out.println("다시한번? 0:Yes , 1:No" + retry);
+				System.out.println("다시한번? 0:Yes , 1:No" + '\n' +retry);
 				retry = c.nextInt();
 			} while (retry ==1);
 

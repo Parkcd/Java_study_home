@@ -7,4 +7,7 @@
     <fullyQualifiedTypeName name="sec.exam03_import.hankook.Tire"/>
     <fullyQualifiedTypeName name="sec.exam03_import.hankook.SnowTire"/>
     <fullyQualifiedTypeName name="sec12.exam03_import.hankook.Tire"/>
+    <fullyQualifiedTypeName name="sec12.exam03_import.hyndai.Engine"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="p205.CarExample"/>
 </qualifiedTypeNameHistroy>

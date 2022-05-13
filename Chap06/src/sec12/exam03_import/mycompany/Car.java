@@ -7,7 +7,7 @@ import sec12.exam03_import.kumho.BigWidthTire;
 
 public class Car {
     //필드
-		Emgine engine = new Engine();
+		Engine engine = new Engine();
 		SnowTire tire1 = new SnowTire();
 		BigWidthTire tire2 = new BigWidthTire();
 		sec12.exam03_import.hankook.Tire tire3 = new sec12.exam03_import.hankook.Tire();
