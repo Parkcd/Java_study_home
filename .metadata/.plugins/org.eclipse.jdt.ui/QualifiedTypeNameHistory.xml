@@ -10,4 +10,6 @@
     <fullyQualifiedTypeName name="sec12.exam03_import.hyndai.Engine"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="p205.CarExample"/>
+    <fullyQualifiedTypeName name="java.nio.channels.AcceptPendingException"/>
+    <fullyQualifiedTypeName name="p314.HankookTire"/>
 </qualifiedTypeNameHistroy>

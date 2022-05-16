@@ -1,0 +1,36 @@
+package test;
+
+public class deonsu {
+
+	public static void main(String[] args) {
+		
+		
+		
+		int h[] = {98 , 70 , 45 ,60 ,83};
+		int sum = 0;
+		int max = 0;
+		int min = 999;
+
+		for(int i=0; i<h.length;i++) {
+			sum += h[i];
+			
+			if(h[i] > max) max = h[i];
+			if(h[i] < min) min = h[i];
+		}
+		
+
+		
+
+		System.out.println("1등 :" + max);
+		System.out.println("2등 :" + max);
+		System.out.println("3등 :" + max);
+		System.out.println("4등 :" + max);
+		System.out.println("5등 :" + max);
+		
+		
+		
+		
+
+	}
+
+}

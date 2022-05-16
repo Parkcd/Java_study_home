@@ -1,0 +1,39 @@
+package test;
+
+import java.util.Scanner;
+
+public class GradeInfo {
+
+	public static void main(String[] args) {
+		
+		int h[] = {98 , 70 , 45 ,60 ,83};
+		int num[] = {1,2,3,4,5};
+		int myRank[] = new int[5];
+		
+		for(int i=0;i<h.length;i++) {
+			myRank[i] = 1;
+			for(int j=0;j<h.length;j++) {
+				if(h[i] < h[j])
+					myRank[i] +=1;
+			}
+		}
+		
+		
+		 	System.out.println("-------------------------------");
+		 	System.out.println("번호" + "\t" + "이름" + "\t" + "국어" + "\t"+ "영어"  +"\t" + "수학" + "\t" + "총점" + "\t" + "학점" + "\t" + "등수");
+		 	
+	    for(int i=0; i<h.length;i++) {
+	    	
+	    	System.out.println("번호"+ num +"점수:" + h[i]+"\t"+"등수:"+myRank[i]);
+	    }
+	        System.out.println("-------------------------------");
+	
+
+		
+		
+
+		
+
+	}
+
+}

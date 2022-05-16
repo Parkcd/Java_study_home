@@ -1,0 +1,27 @@
+package test;
+
+import java.util.Scanner;
+
+public class GradeInfo {
+
+	public static void main(String[] args) {
+		
+		Scanner a = new Scanner(System.in);
+		
+		System.out.println("이름을 입력하세요");
+		String name = a.toString();
+		System.out.println("국어 점수를 입력하세요");
+		int kuk = a.nextInt();
+		System.out.println("영어 점수를 입력하세요");
+		int eng = a.nextInt();
+		System.out.println("수학 점수를 입력하세요");
+		int math = a.nextInt();
+		
+		
+		System.out.println("번호" + "이름" + "국어점수" + "영어점수" + "수학점수" + "총점" + "학점" + "등수");
+		
+		
+
+	}
+
+}
