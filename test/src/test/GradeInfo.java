@@ -7,14 +7,16 @@ public class GradeInfo {
 	public static void main(String[] args) {
 		
 		int kuk[] = {95,70,45,60,83}; 
-		int eng[] = {95,70,45,60,83}; 
-		int mat[] = {95,70,45,60,83}; 
+		int eng[] = {90,70,45,60,83}; 
+		int mat[] = {80,70,45,60,83}; 
 		int sum[] = new int[5];
 		int max = 0;
 		int min = 999;
 		String[] name = {"aaa","bbb","ccc","ddd","eee"};
 		int myRank[] = new int[5];
 		char gread[] = new char[5];
+		int avg[] = new int[5];
+
 		
 		for(int i=0; i<name.length; i++) {
 			sum[i] = kuk[i]+eng[i]+mat[i];
@@ -50,13 +52,19 @@ public class GradeInfo {
 			}
 			
 		}
+		
+		for(int k=0;k<name.length;k++) {
+			avg[k] = sum[k]/3;
+		}
+
 					
-		System.out.println("-------------------------------------------------------------");
-		System.out.println("번호\t이름\t국어\t영어\t수학\t합계\t등급\t등수");
-		System.out.println("-------------------------------------------------------------");
+		System.out.println("-----------------------------------------------------------------------");
+		System.out.println("번호\t이름\t국어\t영어\t수학\t합계\t등급\t등수\t평균");
+		System.out.println("-----------------------------------------------------------------------");
 		for(int i=0; i<name.length; i++) 
 			System.out.println((i+1) + "\t" + name[i] + "\t" + kuk[i] + "\t" + 
-		eng[i] + "\t" + mat[i] + "\t" + sum[i] + "\t" + gread[i] + "\t" + myRank[i] );
+		eng[i] + "\t" + mat[i] + "\t" + sum[i] + "\t" + gread[i] + "\t" + myRank[i] + "\t" +avg[i] );
+		System.out.println("-------------------------------------------------------------");
 		
 	
 	}
