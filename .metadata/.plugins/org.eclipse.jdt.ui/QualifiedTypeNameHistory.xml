@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="chap04.SwitchExample"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
     <fullyQualifiedTypeName name="p244.Singleton"/>
     <fullyQualifiedTypeName name="sec.exam03_import.hankook.Tire"/>
@@ -15,5 +14,9 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="p350.RemoteControl"/>
     <fullyQualifiedTypeName name="p350.Searchable"/>
+    <fullyQualifiedTypeName name="p367.Tire"/>
+    <fullyQualifiedTypeName name="p367.KumhoTire"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

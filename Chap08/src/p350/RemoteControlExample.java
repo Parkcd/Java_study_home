@@ -8,11 +8,13 @@ public class RemoteControlExample {
 		rc = new Television(); 
 		rc.turnOn(); //인터페이스의 turnOn() 메소드를 호출 
 		rc.turnOff();
+		rc.setMute(true);
 		
 		
 		rc = new Audio();
 		rc.turnOn(); //인터페이스의 turnOn() 메소드를 호출
 		rc.turnOff();
+		rc.setMute(true);
 		
 			
 			

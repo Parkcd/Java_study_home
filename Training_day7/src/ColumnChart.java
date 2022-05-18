@@ -19,7 +19,7 @@ import java.util.Random;
 					if(a[j]>=i)
 						System.out.print("* ");
 					else 
-						System.out.print(" ");
+						System.out.print("  ");
 				System.out.println();
 			}
 			
@@ -33,3 +33,5 @@ import java.util.Random;
 		}
 
 	}
+	
+	
