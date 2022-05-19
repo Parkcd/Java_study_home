@@ -7,7 +7,7 @@ import java.util.Random;
 			Random rand = new Random();
 			Scanner stdIn = new Scanner(System.in);
 			
-			System.out.println("요소 수: ");
+			System.out.print("요소 수: ");
 			int n = stdIn.nextInt();
 			int[] a = new int[n];
 			
