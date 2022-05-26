@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="p205.CarExample"/>
     <fullyQualifiedTypeName name="java.nio.channels.AcceptPendingException"/>
     <fullyQualifiedTypeName name="p314.HankookTire"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="p350.RemoteControl"/>
     <fullyQualifiedTypeName name="p350.Searchable"/>
@@ -41,4 +40,8 @@
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
     <fullyQualifiedTypeName name="java.io.Writer"/>
+    <fullyQualifiedTypeName name="javax.swing.Box"/>
+    <fullyQualifiedTypeName name="p658.box"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
