@@ -18,7 +18,7 @@ public class SignRepeat {
 			else {
 				System.out.println("이 값은 0 입니다.");
 			}
-				System.out.println("다시한번? 0:Yes , 1:No" + '\n' +retry);
+				System.out.println("다시한번? 1:Yes , 0:No");
 				retry = c.nextInt();
 			} while (retry ==1);
 

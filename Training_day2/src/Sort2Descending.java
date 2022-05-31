@@ -9,7 +9,7 @@ public class Sort2Descending {
 		System.out.println("두가지 정수를 입력하세요");
 		int b = c.nextInt();
 		
-		if(a>b) {
+		if(a<b) {
 			int t =a;
 			a = b;
 			b = t;

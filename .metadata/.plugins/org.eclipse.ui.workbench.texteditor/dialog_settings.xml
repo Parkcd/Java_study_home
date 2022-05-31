@@ -6,7 +6,17 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="put"/>
 		<list key="findhistory">
+			<item value="put"/>
+			<item value="pur"/>
+			<item value="getpu"/>
+			<item value="getpur"/>
+			<item value="get"/>
+			<item value="Pur"/>
+			<item value="Pu"/>
+			<item value="purch"/>
+			<item value="purce"/>
 		</list>
 		<list key="replacehistory">
 		</list>
