@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="sec.exam03_import.hankook.Tire"/>
-    <fullyQualifiedTypeName name="sec.exam03_import.hankook.SnowTire"/>
-    <fullyQualifiedTypeName name="sec12.exam03_import.hankook.Tire"/>
     <fullyQualifiedTypeName name="sec12.exam03_import.hyndai.Engine"/>
     <fullyQualifiedTypeName name="p205.CarExample"/>
     <fullyQualifiedTypeName name="java.nio.channels.AcceptPendingException"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Hashtable"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="Calculator.add"/>
 </qualifiedTypeNameHistroy>
