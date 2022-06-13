@@ -2,10 +2,26 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class change {
 
-
-
 		  public static void main(String[] args) {
-		        Scanner sc = new Scanner(System.in);
+			  
+			  int num =13;
+			  int cnt =0;
+			  int[] bin = new int[15];
+			  
+			  while(num >=1) {
+				  
+				  bin[cnt] = num%2;
+				  cnt++;
+				  num= num/2;
+			  }
+			  
+			  for(int i=cnt-1 ; i>=0; i--) {
+				  System.out.print(bin[i]);
+			  }
+			  
+			  
+			  
+/**		        Scanner sc = new Scanner(System.in);
 		        int a;
 		        ArrayList<Integer> list = new ArrayList<>();
 		        System.out.print("수 입력 : ");
@@ -19,7 +35,7 @@ public class change {
 		        
 		        for (int i=list.size(); i>=0; i--) {
 		        	System.out.print(list.get(i));
-		        }
+		        } **/
 /**        System.out.print("2진수 :");
 		        while(true) {
 		           //입력한 값의 나머지를 temp에 넣어 나머지를 구한다.
